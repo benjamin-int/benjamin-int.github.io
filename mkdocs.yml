@@ -15,6 +15,7 @@ nav:
       - Uia Commands: accjoon/UiaCommands.md
       - Examples: accjoon/Examples.md
   - Rebound: rebound.md
+  - Arbade: arbade.md
   - ENN: enn.md
   - GitHub: https://github.com/bijanbina/Benjamin
 theme:
