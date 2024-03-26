@@ -11,4 +11,4 @@ Benjamin project consist of different tools that you can find a short descriptio
 * [**Batool**](batool.md) → Engine that use Kaldi model to do online automatic speech recognition with focus on zero delay and maximum accuracy.
 * [**ENN**](enn.md) → A Neural Network Engine that trains a redundant model to detect out of vocabulary (OOV) word to overcome conventional FST model limitations.
 * [**Rebound**](rebound.md) → An Application that sits between `BaTool` and operating system and act as a virtual input that simulates key strokes and complex command execution based on the focused process.
-* [**Chess**](chess.md) → Chess devides the screen into small cells that user can choose to select a mouse operation.
+* **Chess** → Chess divides the screen into small cells that user can choose to select a mouse operation.

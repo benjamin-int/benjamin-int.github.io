@@ -104,30 +104,30 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 }
 </code></pre>
 <p>Focus on an application by providing</p>
-<p>** &lt;name&gt; ** <code>case-insensitive</code></p>
+<p><strong> &lt;name> </strong> <code>case-insensitive</code></p>
 <p>name is part of application app's name. </p>
 <p>Examples: <code>Qt</code>, <code>Altium</code>, <code>Telegram</code></p>
-<p>** &lt;title&gt;** <code>optional</code></p>
+<p><strong> &lt;title></strong> <code>optional</code></p>
 <p>To match better, you can specify a string that the matched window title should have</p>
 <h2 id="open">open</h2>
 <pre><code>void open(&quot;arg&quot;, workspace)
 </code></pre>
 <p>open an application</p>
-<p><strong>&lt;arg&gt;</strong> <code>optional</code></p>
+<p><strong>&lt;arg></strong> <code>optional</code></p>
 <p>Open application with arguments of <code>arg</code></p>
-<p><strong>&lt;workspace&gt;</strong> <code>optional</code> </p>
+<p><strong>&lt;workspace></strong> <code>optional</code> </p>
 <p>Open application in the specified <code>workspace</code> number, start from 1</p>
 <h2 id="isopen">isOpen</h2>
 <pre><code>int isOpen(&quot;process_name&quot;)
 </code></pre>
 <p>Returns 1 if process_name is existed otherwise returns 0.</p>
-<p><strong>&lt;process_name&gt;</strong> </p>
+<p><strong>&lt;process_name></strong> </p>
 <p>Examples: <code>X2.exe</code>, <code>gitkraken.exe</code></p>
 <h2 id="waitopen">waitOpen</h2>
 <pre><code>void waitOpen(&quot;process_name&quot;)
 </code></pre>
 <p>Wait for opening process_name</p>
-<p>** &lt;process_name&gt;**</p>
+<p><strong> &lt;process_name></strong></p>
 <p>Examples: <code>X2.exe</code>, <code>gitkraken.exe</code></p>
 
   <br>

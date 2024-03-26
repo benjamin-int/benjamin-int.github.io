@@ -36,14 +36,14 @@ In Train Tab you can watch the learning procedure of each word. In train Panel, 
 
 * Train Time: Time that program is training words.
 
-![train](../img/enn_train.png)
+![train](img/enn_train.png)
 
 ## ENN Sample Link
 
 In sample link tab all true sample cepstrums are ploted in images. In this way you can find out why training for a word has large loss and not reaches the target loss.
 By using direction arrow keys you can select then play the wave related to each sample. Also change the word to see its samples. (Train procedure is not stopped while sample link is active)
 
-![sampleLink](../img/enn_sample_link.png)
+![sampleLink](img/enn_sample_link.png)
 
 ## Wrong
 
